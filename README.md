@@ -5,7 +5,7 @@ This is Project 2 for the Sudoku assignment. The app is built with React, React 
 ## Deliverable
 
 - **Render app:** https://mochuan-liu-project2.onrender.com
-- **Video walkthrough:** In this repo
+- **Video walkthrough:** In this repo, Walkthrough.mp4 and Easygame.mp4
 - **Collaborator:** Solo project
 
 ## Implemented Routes
