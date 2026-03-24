@@ -4,8 +4,8 @@ This is Project 2 for the Sudoku assignment. The app is built with React, React 
 
 ## Deliverable
 
-- **Render app:** [Add your Render link here]
-- **Video walkthrough** In this repo
+- **Render app:** https://mochuan-liu-project2.onrender.com
+- **Video walkthrough:** In this repo
 - **Collaborator:** Solo project
 
 ## Implemented Routes
