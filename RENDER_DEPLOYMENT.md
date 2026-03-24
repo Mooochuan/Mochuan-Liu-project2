@@ -8,10 +8,9 @@
 
 ## Steps
 
-1. Push this folder to a GitHub repo named `{firstname}-{lastname}-project2`.
-2. In Render, choose **New +** → **Static Site** and connect your repo.
-3. Set build and publish values above, then deploy.
-4. Confirm the app opens and route refresh works:
+1. In Render, choose **New +** → **Static Site** and connect your repo.
+2. Set build and publish values above, then deploy.
+3. Confirm the app opens and route refresh works:
    - `/`
    - `/games`
    - `/games/easy`
