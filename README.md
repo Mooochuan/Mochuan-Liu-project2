@@ -2,11 +2,10 @@
 
 This is Project 2 for the Sudoku assignment. The app is built with React, React Router, and Context API.
 
-## Deliverable Links
+## Deliverable
 
-- **GitHub repo:** [Add your repo link here]
 - **Render app:** [Add your Render link here]
-- **Video walkthrough:** [Add your video link here]
+- **Video walkthrough** In this repo
 - **Collaborator:** Solo project
 
 ## Implemented Routes
@@ -35,18 +34,17 @@ This is Project 2 for the Sudoku assignment. The app is built with React, React 
 
 Context API is used as the primary state store. Child components dispatch actions through context to update game state (selection, cell updates, reset/new game, timer), matching required unidirectional flow.
 
-## Render Deployment Notes (Deliverable 3)
+## Render Deployment Notes
 
 - Build command: `npm run build`
 - Publish directory: `dist`
 - SPA fallback is included in `public/_redirects`.
-- Full steps are documented in `RENDER_DEPLOYMENT.md`.
 
 ## Writeup (Deliverable 4)
 
 ### 1) What were some challenges you faced while making this app?
 
-The biggest challenge was generating playable Sudoku boards while keeping the implementation simple and readable for course-level requirements. I also spent time making sure validation feedback was clear, especially for row/column/subgrid conflicts. Another challenge was balancing React component size so game logic stayed in utility/context code and UI components remained focused.
+The biggest challenge was generating playable Sudoku boards while keeping the implementation simple and readable. I also spent time making sure validation feedback was clear, especially for row/column/subgrid conflicts. Another challenge was balancing React component size so game logic stayed in utility/context code and UI components remained focused.
 
 ### 2) Given more time, what additional features or design changes would you make?
 
@@ -54,7 +52,7 @@ Given more time, I would add persistent save/resume using local storage and a tr
 
 ### 3) What assumptions did you make while working on this assignment?
 
-I assumed mock pages (scores, login, register, selection metadata) did not require backend functionality and could remain hardcoded, based on the assignment language. I assumed random puzzle generation did not require strict unique-solution validation unless claiming the backtracking bonus. I also assumed route structure and navigation behavior should mirror Project 1 pages while adapting to the Project 2 URL requirements.
+I assumed mock pages (scores, login, register, selection metadata) did not require backend functionality and could remain hardcoded. I assumed random puzzle generation did not require strict unique-solution validation unless claiming the backtracking bonus. I also assumed route structure and navigation behavior should mirror Project 1 pages while adapting to the Project 2 URL requirements.
 
 ### 4) How long did this assignment take to complete?
 
@@ -64,9 +62,8 @@ Approximately 9-11 hours including setup, route conversion from the mock layout,
 
 No bonus features were attempted for this submission.
 
-## Deliverable 6 (Bonus Declaration)
+## Bonus Declaration
 
 - Local Storage bonus: Not attempted
 - Backtracking unique-solution bonus: Not attempted
 - Hint system bonus: Not attempted
-- Early submission bonus: N/A
